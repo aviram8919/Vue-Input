@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h5>Input feild which takes string and reprint it in uppercase</h5>
+    <input type="text" v-model="message" />
+    <h4>{{ message | uppercase }}</h4>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld
+  data(){
+    return{
+      message: "aviram"
+    }
   }
 };
 </script>
