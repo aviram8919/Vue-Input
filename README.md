@@ -1,5 +1,5 @@
 # buildcheck
-
+This Vue project takes string in an input feild and reprint it in uppercase.
 ## Project setup
 ```
 npm install
